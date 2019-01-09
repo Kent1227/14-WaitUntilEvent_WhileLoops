@@ -339,7 +339,6 @@ def prime_gap(m):
     Type hints:
       :type m: int
     """
-    
 
     # -------------------------------------------------------------------------
     # TODO: 5. Implement and test this function.
