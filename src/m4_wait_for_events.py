@@ -339,6 +339,12 @@ def prime_gap(m):
     Type hints:
       :type m: int
     """
+    x = 2
+    while True:
+        if next_prime(x) - x == m:
+            return x
+        else:
+            x = next_prime(x + 1)
 
     # -------------------------------------------------------------------------
     # TODO: 5. Implement and test this function.
